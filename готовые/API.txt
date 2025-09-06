@@ -5,4 +5,16 @@ set TELEGRAM_BOT_TOKEN=8465570605:AAF18_4_IlghSu3aV_ckS6B2waMkGiQZDUk
 $env:TELEGRAM_BOT_TOKEN="8465570605:AAF18_4_IlghSu3aV_ckS6B2waMkGiQZDUk"
 python bot.py
 
+846907691
+1061063560
+
+git config --global user.name "Noobyra"
+git config --global user.email "yury.alexeeff@gmail.com"
+
+git init                       # Инициализируем локальный репозиторий
+git add .                       # Добавляем все файлы проекта
+git commit -m "Первый коммит"   # Создаем первый коммит
+git branch -M main              # Переименовываем ветку в main
+git remote add origin https://github.com/yuryalexeeff-source/OracleX.git
+git push -u origin main         # Отправляем проект на GitHub
 
